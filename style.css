@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Navbar */
+.navbar {
+  background-color: #222222;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-logo {
+  padding: 15px 25px;
+  font-size: 28px;
+  font-weight: bolder;
+  color: #d3c38e;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+}
+
+.navbar-logo:hover {
+  text-decoration: none;
+  color: #ddcc93;
+}
+
+.nav-link {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 14px;
+}
+
+.nav-link:hover {
+  color: #e6cf86;
+  cursor: pointer;
+}
+
+/* Carousal */
+.carousal-main-container .carousel-item {
+  height: 100vh;
+}
+
+.carousal-main-container .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousal-main-container .carousel-item h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.carousal-main-container .carousel-item p {
+  font-size: 1.1rem;
+}
+
+.yellow-container {
+  background-color: #bdb28f;
+  color: #222;
+  text-align: center;
+  padding: 55px;
+}
+
+.yellow-container h3 {
+  font-weight: bold;
+}
+
+/* Service */
+.service-main-container {
+  background-color: #222222;
+  padding-top: 100px;
+}
+
+.service-main-container .section-header {
+  text-align: center;
+}
+
+.service-main-container .section-header h2 {
+  color: #a5986e;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.service-main-container .section-header p {
+  color: #a9a9a9;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.service-main-container .section-content {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.service-main-container .section-content .item {
+  text-align: center;
+  width: 26%;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.service-main-container .section-content i {
+  color: #c7bb93;
+  margin-bottom: 20px;
+}
+
+.service-main-container .section-content .service-content-item {
+  border: 1px solid #a9a9a9;
+}
+
+.service-main-container .section-content h5 {
+  margin-top: 20px;
+  color: #ddd;
+}
+.service-main-container .section-content p {
+  font-size: 14px;
+  color: #a9a9a9;
+  padding: 10px 25px;
+}
+
+/* About */
+
+.about-main-container {
+  width: 100%;
+  background-color: #d8cca3;
+}
+
+.about-main-container .img {
+  display: inline-block;
+  width: 49%;
+}
+
+.about-main-container img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.about-main-container .content {
+  display: inline-block;
+  width: 49%;
+  background-color: #aaa285;
+  height: 100%;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+
+.about-main-container .content h3 {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.about-main-container .content p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* contact */
+.contact-main-container {
+  padding-top: 100px;
+  background-color: #aa9f79;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.contact-main-container .header h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact-main-container .header p {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-main-container form input,
+.contact-main-container form textarea {
+  width: 60%;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 15px;
+  background: none;
+}
+
+.contact-main-container form button {
+  background: #d6c99c;
+  color: white;
+  outline: none;
+  border-radius: 5%;
+  border: 1px solid white;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.contact-main-container form button:hover{
+    background: white;
+    color: #ada58a;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(230, 228, 214);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(230, 228, 214);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(230, 228, 214);
+}
+
+
+/* footer */
+
+footer{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
